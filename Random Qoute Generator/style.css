@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-container {
+  width: 100%;
+  height: 100vh;
+  background-color: bisque;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2%;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.quotes-con {
+  width: 60%;
+  height: 30vh;
+  background-color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2%;
+  cursor: pointer;
+
+}
+
+button {
+  width: 30%;
+  height: 5vh;
+  border: 0;
+  border-radius: 0.4em;
+  background-color: #413f57;
+  color: #fff;
+  font-size: large;
+  cursor: pointer;
+}
+
+.quotes-con h3,
+h4 {
+  margin-top: 2%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.quotes-con h4 {
+  margin-left: 50%;
+}
